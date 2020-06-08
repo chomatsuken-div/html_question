@@ -19,4 +19,4 @@ default: &default
 
 development:
   <<: *default
-  database: jquery_question_development
+  database: html_question_development
