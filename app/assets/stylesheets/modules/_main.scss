@@ -24,7 +24,7 @@
         }
       }
     }
-    &__edit-btn {
+    &__adit-btn {
       height: 40px;
       line-height:40px;
       padding: 0 20px;
@@ -41,7 +41,6 @@
     height: calc(100vh - 190px);
     padding: 46px 40px;
     background-color: $messages_background;
-    overflow: scroll;
     .message {
       padding-bottom: 40px;
       &__upper-info {
@@ -67,9 +66,7 @@
     padding: 20px 40px;
     background-color: $main_form_background;
     form {
-      display: flex;
       .input-box {
-        position: relative;
         width: 100%;
         &__text {
           height: 50px;
@@ -80,9 +77,6 @@
         }
         &__image {
           font-size: 1.3rem;
-          position: absolute;
-          top: 10px;
-          right: 10px;
           cursor: pointer;
           &__file {
             display: none;
